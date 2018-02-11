@@ -52,7 +52,7 @@ public abstract class Command {
 	public String getHelpText() {
 		String command = this.getClass().getSimpleName().toLowerCase();
 		// コマンド + コマンド説明文
-		return String.format("%-8s", command) + MessageUtil.getMessage("info.command.help." + command);
+		return String.format("%-10s", command) + MessageUtil.getMessage("info.command.help." + command);
 	}
 
 }

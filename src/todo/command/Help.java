@@ -19,6 +19,7 @@ public class Help extends Command {
 		helpList.add("Help");
 		helpList.add("Inquiry");
 		helpList.add("List");
+		helpList.add("LoadIssue");
 		helpList.add("Meeting");
 		helpList.add("Now");
 		helpList.add("Quit");
